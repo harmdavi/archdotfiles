@@ -12,8 +12,8 @@ PS1='[\u@\h \W]\$ '
 
 #Below is all of my custom stuff
 
-export EDITOR= "nvim"
-exprot VISUAL= "nvim"
+export EDITOR=nvim
+export VISUAL=nvim
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
