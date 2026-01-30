@@ -24,5 +24,6 @@ vim.g.maplocalleader = "\\"
 
 
 require("vim-options")
+require("vim-lspconfig")
 require("lazy").setup("plugins")
 
