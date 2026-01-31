@@ -13,3 +13,6 @@ stow bashrc
 stow hyperland
 stow nvim
 stow ghostty
+stow scripts
+
+
