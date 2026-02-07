@@ -25,3 +25,4 @@ function y() {
 
 
 export PATH="$PATH:$HOME/.local/bin"
+export HYPRSHOT_DIR="$HOME/Desktop/Screenshots"
