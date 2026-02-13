@@ -13,6 +13,10 @@ return {
       vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live grep" })
       vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope buffers" })
       vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
-    end,
+      vim.keymap.set("n", "<leader>sc", builtin.spell_suggest,{desc = "Telescope spell"}) 
+      vim.keymap.set("n", "<leader>rg", builtin.registers, {desc = "Read Registers"})
+
+vim.keymap.set("n", "<leader>ld", builtin.diagnostics, {desc = "List Diagnostics"})
+      end,
   },
 }
